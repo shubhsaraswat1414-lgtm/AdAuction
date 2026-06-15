@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #7e22ce; /* Tailwind purple-700 */
+  --secondary-color: #2563eb; /* Tailwind blue-600 */
+  --background-color: #f9fafb; /* Tailwind gray-50 */
+  --text-color: #111827; /* Tailwind gray-900 */
+  --text-muted: #6b7280; /* Tailwind gray-500 */
+
+  --primary-gradient: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+
+  --border-radius: 1rem;
+
+  --small-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --large-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
