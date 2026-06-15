@@ -45,8 +45,8 @@ Follow these steps to set up and run the project locally. Another developer can 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd REACT_PROJECT
+   git clone https://github.com/shubhsaraswat1414-lgtm/AdAuction.git
+   cd AdAuction
    ```
 
 2. **Install dependencies:**
