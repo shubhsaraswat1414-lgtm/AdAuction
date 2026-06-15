@@ -23,15 +23,7 @@ AdAuction is a comprehensive Publisher Network and Ad Platform built with modern
 - **Delivery Routes & Storage System:** Advanced routing and storage visualizations.
 - **Responsive Design:** Fully responsive layout with a collapsible sidebar and mobile-friendly navigation.
 
-## 📸 Screenshots
 
-*(Replace the placeholders below with actual screenshots of your application)*
-
-![Dashboard](./public/screenshot-dashboard.png)
-*Dashboard Overview*
-
-![Live Auction](./public/screenshot-auction.png)
-*Live Auction Interface*
 
 ## 🛠️ Setup Instructions
 
