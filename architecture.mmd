@@ -1,0 +1,36 @@
+graph TD
+    App[App.jsx] --> Providers[Context Providers]
+    Providers --> AuthCtx(ToastProvider)
+    Providers --> AuctCtx(AuctionProvider)
+    
+    App --> Router[React Router]
+    
+    Router --> Public[Public Routes]
+    Public --> Home(HomePage)
+    Public --> Auth(AuthPage)
+    
+    Router --> Private[Protected Routes]
+    Private --> Layout(MainLayout)
+    
+    Layout --> Nav[Navbar]
+    Layout --> Side[Sidebar]
+    Layout --> Pages[Dashboard Pages]
+    
+    Pages --> Dash[Dashboard]
+    Pages --> Inv[AdInventory]
+    Pages --> Auct[LiveAuction]
+    Pages --> Budg[BudgetHistory]
+    Pages --> Network[PublisherNetwork]
+    
+    Inv -.-> InvComps[InventoryFilters, AdSlotItem]
+    Auct -.-> AuctComps[AuctionTable, PromoBanner]
+    Budg -.-> BudgComps[BudgetStack, BudgetStats]
+    Network -.-> NetComps[WebsiteTree, WebsiteNode]
+    
+    classDef route fill:#2E86AB,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef layout fill:#F24236,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef comp fill:#F6F5AE,stroke:#333,stroke-width:1px,color:#333;
+    
+    class Public,Private route;
+    class Layout layout;
+    class InvComps,AuctComps,BudgComps,NetComps comp;
