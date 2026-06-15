@@ -62,5 +62,4 @@ Follow these steps to set up and run the project locally. Another developer can 
    ```
 
 ## 🌐 Live Demo
-
-[View Live Demo](#) *(https://ad-auction-nine.vercel.app/)*
+*(https://ad-auction-nine.vercel.app/)*
